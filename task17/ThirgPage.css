@@ -1,0 +1,16 @@
+body { background-color: green;/* Цвет фона */
+background-size: 100%;
+background-image:
+url("https://cdn.pixabay.com/photo/2017/09/08/17/05/elephant-2729413_960_720.jpg"); 
+}
+
+.seconde{
+	margin-top: 1%;
+	margin-left: 50%;
+
+}
+
+.thr{
+	margin-top: 1px;
+	margin-left:1px ;
+}
