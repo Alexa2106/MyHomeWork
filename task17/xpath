@@ -1,0 +1,20 @@
+Мой Мир - (.//span[@class="x-ph__link__text"])[2]
+Все проеткы - .//a[@class="x-ph__menu__button"]
+Картинки - .//a[@href="http://r.mail.ru/clb657254/go.mail.ru/search_images?fr=mailru&fm=1&test_id=561"]
+Лупа - (.//label[@for="q"])[1]
+Найти - .//input[@id="search:submit"]
+Календарь - .//span[@id="cal"]
+Леди - (.//a[text()="Леди"])[2]
+Другое(троеточие) - .//span[@class="tabs__dropdown-button o-dropdown__button js-click"]
+Облако - (.//div[@class="projects-item__body"])[1]
+Новости - .//a[@href="https://sportmail.ru/news/football-foreign/36655111/?frommail=1"]
+Реклама - .//div[@class="news-item o-media news-item_tgb news-item_long_title tgb"]
+Диск - .//div[@class="well notify i-link-no-deco i-absolute m-bordered m-animated-shadow m-animated-borderless notify_y-lg notify_out"]
+Валюта - (.//a[@class="rate i-link-no-deco o-media"])[1]
+О компании - .//a[@href="//corp.mail.ru/"]
+
+
+
+
+
+
