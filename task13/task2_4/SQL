@@ -1,0 +1,19 @@
+1.SELECT * FROM Categories
+2.SELECT CategoryID, CategoryName, Description FROM Categories
+3.SELECT Address FROM Suppliers
+4.SELECT Price FROM Products ORDER BY price DESC
+5.SELECT CustomerID, ShipperID  FROM Orders ORDER BY CustomerID, ShipperID DESC
+6.SELECT ProductName, Price FROM Products WHERE price>40 ORDER BY ProductName DESC
+7.SELECT ProductName, Price, Unit FROM Products WHERE Price BETWEEN 20 AND 50 ORDER BY Unit DESC
+8.SELECT ProductName, Price, CategoryID FROM Products WHERE Price BETWEEN 20 AND 100 OR CategoryID=6
+9.SELECT ProductName, Price FROM Products WHERE price IN (46, 53, 55) 2способ(?):SELECT ProductName, Price FROM Products WHERE price=46 OR price=53 OR price=55
+10.SELECT ProductName, Price FROM Products WHERE NOT price IN(46,53,55)
+11.SELECT ProductName FROM Products WHERE ProductName LIKE "%han%"
+12.INSERT INTO Shippers (ShipperID, ShipperName, Phone) VALUES ("17", "Hanna Montero", "27182671121")
+13.INSERT INTO Shippers (ShipperID, ShipperName) VALUES ("23", "Monica Lesli")
+14.INSERT INTO Categories (CategoryID, CategoryName, Description) SELECT ShipperID, ShipperName, Phone FROM Shippers 
+16.DELETE FROM Shippers WHERE ShipperName = 'Speedy Express'
+17.DELETE FROM Products WHERE Price<50
+18.DELETE FROM Orders
+19.UPDATE Categories SET CategoryName="AnyName" WHERE CategoryName="Beverages"
+20.UPDATE Products SET Price="154" WHERE ProductName="Chais"
